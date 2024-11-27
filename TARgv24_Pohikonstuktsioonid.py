@@ -37,3 +37,10 @@ print("Läbimõõdu leidmine ")
 l=float(input("Ümbermõõt: "))
 d=l/pi
 print(f"Läbimõõdu suurus on {round(d,2)}")
+
+#Ülesanne 5
+n=int(input("length 1: "))
+m=int(input("length 2: "))
+d=sqrt(n**2+m**2)
+print("the length of the diagonal of a rectangular equals: ")
+print(d)
