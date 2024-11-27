@@ -44,3 +44,9 @@ m=int(input("length 2: "))
 d=sqrt(n**2+m**2)
 print("the length of the diagonal of a rectangular equals: ")
 print(d)
+
+#Ülesanne 6
+aeg = float(input("Mitu tundi kulus sõiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+kiirus = teepikkus / aeg #changed places of teepikkus and aeg
+print("Sinu kiirus oli " + str(kiirus) + " km/h")
