@@ -2,24 +2,27 @@ from random import * # * - all functions    or   randint as rd funktsioonide üm
 #impor random -> random.randint()
 from math import * #pi kasutamiseks
 
-# # Ülesanne 1
-# print ("Tere tulemast!")
-# nimi=input("Mis on sinu nimi? ").capitalize() #lower()-aaa,upper()-AAA,capitalize()-Aaa
-# print("Tere tulemast! Tervitan sind ", nimi)
-# print("Tere tulemast! Tervitan sind "+ nimi)
-# vanus=int(input("Kui vana sa oled?"))
-# print("Tere tulemast! Tervitan sind "+nimi+". Sa oled ",vanus,"aastat vana.")
-# print(f"\tTere tulemast! \nTervitan sind {nimi}. Sa oled {vanus} aastat vana.") #{vanus:.2f}
+# Ülesanne 1
+print ("Tere tulemast!")
+nimi=input("Mis on sinu nimi? ").capitalize() #lower()-aaa,upper()-AAA,capitalize()-Aaa
+print("Tere tulemast! Tervitan sind ", nimi)
+print("Tere tulemast! Tervitan sind "+ nimi)
+try:
+   vanus=int(input("Kui vana sa oled?"))
+   print("Tere tulemast! Tervitan sind "+nimi+". Sa oled ",vanus,"aastat vana.")
+   print(f"\tTere tulemast! \nTervitan sind {nimi}. Sa oled {vanus} aastat vana.") #{vanus:.2f}
+except:
+    print("On vaja numbreid sisestada!")
 
-# #Ülesanne 2
-# vanus = 18
-# eesnimi = "Jaak"
-# pikkus = 16.5
-# kas_käib_koolis = True
-# print(type(vanus))
-# print(type(eesnimi))
-# print(type(pikkus))
-# print(type(kas_käib_koolis))
+#Ülesanne 2
+vanus = 18
+eesnimi = "Jaak"
+pikkus = 16.5
+kas_käib_koolis = True
+print(type(vanus))
+print(type(eesnimi))
+print(type(pikkus))
+print(type(kas_käib_koolis))
 
 # #Ülesanne 3
 # kokku=randint(1,1000)
