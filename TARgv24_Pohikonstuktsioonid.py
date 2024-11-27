@@ -71,3 +71,20 @@ print("   @..@")
 print("  (----)")
 print(" ( \__/ )")
 print("  ^^ "" ^^  ")
+
+
+#Ülesanne 10
+pitsa=12.90
+print("pitsa hinna: ")
+print(pitsa)
+jootraha=12.90/10
+print("jootraha: ")
+print(jootraha)
+summa=jootraha+pitsa
+summa=round(summa, 2)
+print("summa: ")
+print(summa)
+maksab=summa/2
+maksab=round(maksab, 2)
+print("igaüks maksab: ")
+print(maksab)
