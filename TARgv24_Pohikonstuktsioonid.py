@@ -65,3 +65,9 @@ print(summa)
 end=summa/5
 print("Arithmetic mean of given integers is: ")
 print(end)
+
+#Ülesanne 8
+print("   @..@")
+print("  (----)")
+print(" ( \__/ )")
+print("  ^^ "" ^^  ")
