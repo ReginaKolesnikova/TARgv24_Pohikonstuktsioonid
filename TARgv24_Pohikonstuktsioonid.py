@@ -24,12 +24,12 @@ print(type(eesnimi))
 print(type(pikkus))
 print(type(kas_käib_koolis))
 
-# #Ülesanne 3
-# kokku=randint(1,1000)
-# print(f"Kokku on {kokku} kommi")
-# kommi=int(input("Mitu kommi sa tahad? "))
-# kokku=kokku-kommi
-# print(f"Jääk on {kokku} kommi")
+#Ülesanne 3
+kokku=randint(1,1000)
+print(f"Kokku on {kokku} kommi")
+kommi=int(input("Mitu kommi sa tahad? "))
+kokku=kokku-kommi
+print(f"Jääk on {kokku} kommi")
 
 #Ülesanne 4
 print("Läbimõõdu leidmine ")
