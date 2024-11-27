@@ -50,3 +50,18 @@ aeg = float(input("Mitu tundi kulus sõiduks? "))
 teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
 kiirus = teepikkus / aeg #changed places of teepikkus and aeg
 print("Sinu kiirus oli " + str(kiirus) + " km/h")
+
+#Ülesanne 7
+a=float(input("1st number: "))
+b=float(input("2nd number: "))
+c=float(input("3rd number: "))
+d=float(input("4th number: "))
+e=float(input("5th number: "))
+
+
+summa=float(a+b+c+d+e)
+print("Sum is: ")
+print(summa)
+end=summa/5
+print("Arithmetic mean of given integers is: ")
+print(end)
