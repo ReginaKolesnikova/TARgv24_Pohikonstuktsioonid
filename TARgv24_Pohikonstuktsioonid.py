@@ -72,6 +72,17 @@ print("  (----)")
 print(" ( \__/ )")
 print("  ^^ "" ^^  ")
 
+#Ülesanne 9
+import random
+
+a=int(random.random() * 1000)
+print(f"A={a}")
+b=int(random.random() * 1000)
+print(f"B={b}")
+c=int(random.random() * 1000)
+print(f"C={c}")
+P=a+b+c
+print(f"P={P}")
 
 #Ülesanne 10
 pitsa=12.90
